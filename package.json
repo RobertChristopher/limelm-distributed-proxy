@@ -1,0 +1,32 @@
+{
+  "name": "wyday-proxy",
+  "version": "1.0.0",
+  "description": "Wyday distributed authentication proxy",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http-proxy": "^1.15.1",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IcyPickups/wyday-proxy.git"
+  },
+  "keywords": [
+    "wyday",
+    "hack",
+    "api"
+  ],
+  "author": "rob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IcyPickups/wyday-proxy/issues"
+  },
+  "homepage": "https://github.com/IcyPickups/wyday-proxy#readme"
+}
